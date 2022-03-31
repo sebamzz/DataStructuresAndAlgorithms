@@ -64,7 +64,7 @@ func (h *MaxHeap) maxHeapifyDown(index int) {
 	}
 }
 
-// get the parent index
+// get the parent index cambio tonto
 func parent(i int) int {
 	return (i - 1) / 2
 }
